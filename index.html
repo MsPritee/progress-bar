@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dynamic Progress Bar</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="progress-bar">
+        <div id="progress-bar-inner"></div>
+    </div>
+
+    <h1>Let's get started</h1>
+
+    <div class='form'>
+        <label for="question1">1. What is the capital of France?</label>
+        <div class="input">
+            <input type="text" id="question1-answer" />
+        </div>
+
+        <label for="question2">2. What is the largest ocean in the world?</label>
+        <div class="input">
+            <input type="text" id="question2-answer" />
+        </div>
+
+        <label for="question3">3. Which planet is known as the "Red Planet"?</label>
+
+        <select id="question3-answer">
+            <option value="Leonardo da Vinci">Select</option>
+            <option value="Mars">Mars</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturn">Saturn</option>
+            <option value="Uranus">Uranus</option>
+        </select>
+
+
+        <label for="question4">4. Who painted the Mona Lisa?</label>
+
+        <select id="question4-answer">
+            <option value="Leonardo da Vinci">Select</option>
+            <option value="Leonardo da Vinci">Leonardo da Vinci</option>
+            <option value="Michelangelo">Michelangelo</option>
+            <option value="Vincent van Gogh">Vincent van Gogh</option>
+            <option value="Pablo Picasso">Pablo Picasso</option>
+        </select>
+
+
+        <label for="question5">5. Which of the following is NOT a primary color?</label>
+        <div class="flex">
+            <div class="select-menu">
+                <input type="radio" id="question5-answer-red" name="question5-answer" value="red" />
+                <label for="question5-answer-red">Red</label>
+            </div>
+
+            <div class="select-menu">
+                <input type="radio" id="question5-answer-blue" name="question5-answer" value="blue" />
+                <label for="question5-answer-blue">Pink</label>
+            </div>
+        </div>
+
+        <label for="question5">6. Which of the following is NOT a self closing tag?</label>
+        <div class="flex">
+            <div class="select-menu">
+                <input type="radio" id="question5-answer-img" name="question5-answer" value="img" />
+                <label for="question5-answer-img">img</label>
+            </div>
+
+            <div class="select-menu">
+                <input type="radio" id="question5-answer-div" name="question5-answer" value="div" />
+                <label for="question5-answer-div">div</label>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
